@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
@@ -50,7 +50,7 @@
                 >
               </li>
               <li class="nav-item ani">
-                <a class="nav-link" href="../colecciones/colecciones.html"
+                <a class="nav-link" href="../Colecciones/colecciones.html"
                   >COLECCIONES</a
                 >
               </li>
@@ -87,8 +87,8 @@
           />
         </form>
       </div>
-      <div class="form-group">
-        <label class="amarillo">Apellido:</label>
+      <div class="form-group my-3">
+        <label class="">Apellido:</label>
         <input
           type="text"
           id="Apellido"
@@ -97,16 +97,9 @@
           placeholder="escriba su apellido aquí"
         />
       </div>
-        <br />
-        <div class="form-check">
-        <label>Tipo de cliente:</label>
-        Mayorista
-        <input type="radio" name="cliente" value="Mayorista" class="form-check-imput" />
-        Minorista
-        <input type="radio" name="cliente" value="Minorista" class="form-check-imput"/>
-      </div>
-        <br />
-        <div class="form-group">
+        
+        
+        <div class="form-group my-3">
         <label class="amarillo">tipo de consulta:</label>
         <select name="Consulta" id="consulta" class="form-control">
           <option value="compra">compra</option>
@@ -117,8 +110,8 @@
           </option>
         </select>
       </div>
-        <br />
-        <div class="form-group">
+        
+        <div class="form-group my-3">
         <label class="">Mensaje:</label>
         <br />
         <textarea
@@ -130,13 +123,13 @@
           class="form-control"
         ></textarea>
       </div>
-        <br />
+        
         <label class="amarillo">Acepta nuestros términos y condiciones</label>
         <input type="checkbox" id="acepta" value="1" />
-        <br />
-<div class="mx-auto py-5">
+        
+<div class="mx-auto py-3">
         <input type="reset" value="Resetear" class="btn btn-dark" />
-        <input type="submit" value="Enviar" class="btn btn-dark"/>
+        <input type="submit" value="Enviar" class="btn btn-dark ms-3"/>
       </div>
       </fieldset>
     </div>
@@ -144,6 +137,7 @@
       <div class="container px-5 text-center">
         <p>
           Buscanos en las redes:
+
           <img
             class="ms-3"
             src="../Media/instagram.png"
@@ -151,7 +145,13 @@
             width="10rem"
             height="10rem"
           />
-          AndroginaRosario
+          <a
+            href="https://www.instagram.com/androginarosario/"
+            class="link-dark text-decoration-none"
+          >
+            AndroginaRosario
+          </a>
+
           <img
             class="ms-3"
             src="../Media/facebook.png"
@@ -159,7 +159,12 @@
             width="10rem"
             height="10rem"
           />
-          Andrógina Rosario
+          <a
+            href="https://www.facebook.com/androgina"
+            class="link-dark text-decoration-none"
+          >
+            Andrógina
+          </a>
         </p>
       </div>
     </footer>
